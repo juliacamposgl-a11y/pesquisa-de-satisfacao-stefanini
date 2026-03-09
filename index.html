@@ -4,13 +4,19 @@
   <meta charset="UTF-8">
   <title>Pesquisa de Satisfação - Stefanini</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fonte Poppins do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style> body { background: #f4f6f8; } .container { max-width: 600px; margin-top: 40px; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #0001; padding: 30px; } .logo { width: 180px; margin-bottom: 20px; } .btn-primary { background: #003366; border: none; } </style>
+  <style> body { background: #eff1f3; font-family: 'Poppins', Arial, sans-serif; min-height: 100vh; margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; } .glass-container { background: rgba(227, 231, 233, 0.7); box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.18); max-width: 600px; width: 100%; padding: 40px 30px 30px 30px; margin: 40px 0; } .logo { width: 160px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto; } .titulo { font-family: 'Poppins', Arial, sans-serif; color: #2f4463; font-size: 25px; font-weight: 700; text-align: center; margin-bottom: 10px; } .subtitulo { font-family: 'Poppins', Arial, sans-serif; color: #2f4463; font-size: 14px; text-align: center; margin-bottom: 18px; } .texto-explicativo { font-family: 'Poppins', Arial, sans-serif; color: #2f4463; font-size: 12px; text-align: center; margin-bottom: 25px; } label, .form-label, .form-select, .form-control, .form-range { font-family: 'Poppins', Arial, sans-serif; color: #2f4463; font-size: 14px; } .btn-primary { background: #2f4463; border: none; font-family: 'Poppins', Arial, sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 1px; } .btn-primary:hover { background: #1d2c45; } </style>
 </head>
 <body>
-  <div class="container">
+  <div class="glass-container">
     <img src="https://www.stefanini.com/sites/default/files/2021-03/logo-stefanini.png" class="logo" alt="Stefanini">
-    <h2>Pesquisa de Satisfação</h2>
+    <div class="titulo">Pesquisa de Satisfação</div>
+    <div class="subtitulo">Sua opinião é muito importante para nós!</div>
+    <div class="texto-explicativo">
+      Por favor, responda as perguntas abaixo para nos ajudar a melhorar nossos serviços.
+    </div>
     <form action="https://formspree.io/f/mnjgjqyw" method="POST">
       <label class="form-label mt-3">1. Em uma escala de 0 a 10, quão satisfeito você ficou com a proposta apresentada?</label>
       <input type="range" class="form-range" name="satisfacao" min="0" max="10" required>
@@ -34,4 +40,8 @@
     </form>
   </div>
 </body>
+</html>
+  </div>
+</body>
+
 </html>
